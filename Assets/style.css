@@ -12,13 +12,17 @@ body {
 header {
   text-align: center;
   background-color: azure;
-  padding: 1.5rem;
+  padding: 1rem;
   margin-bottom: 0.5rem;
 }
 
 aside {
   border: 1px black solid;
   border-radius: 15px;
+}
+
+input.form-control.mr-sm-2 {
+  margin: 0.5rem 0;
 }
 
 .forecast.col-12.col-sm-12.col-md-8.col-lg-9 {

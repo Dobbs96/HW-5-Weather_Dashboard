@@ -23,3 +23,9 @@
   - Temperature,
   - Wind Speed
   - Humidity
+
+### Resources
+
+- [MDN Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/Date)
+- [UV Index](https://openweathermap.org/api/uvi)
+- [Open Weather Map API](https://www.youtube.com/watch?v=53AoDB7vcbU)

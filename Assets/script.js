@@ -20,6 +20,22 @@ searchBtn.on("click", function (event) {
       })
       .then(function (data) {
         console.log(data);
+        // Pull needed Info
+        // City Name
+        console.log("City Name: " + data.city.name);
+        // Date
+        var currentDate = new Date(data.list[0].dt * 1000).toLocaleDateString();
+        console.log("Date: " + currentDate);
+        // Icon
+        console.log("Icon: " + data.list[0].weather[0].icon);
+        // Temp
+        console.log("Temp: " + data.list[0].main.temp);
+        // Humidity
+        console.log("Humidity: " + data.list[0].main.humidity);
+        // Wind Speed
+        console.log("Wind Speed: " + data.list[0].wind.speed);
+        // UV Index
+        console.log("UV Index: " + data.city.name);
       });
   }
 });

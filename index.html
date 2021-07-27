@@ -31,24 +31,25 @@
                 id="searchBar"
               />
               <button type="button" id="searchBtn" class="btn btn-info">
-                Info
+                Submit
               </button>
             </form>
           </section>
           <section class="searchResults">
             <h3>Searched;</h3>
             <ul id="previousCity" class="list-group list-group-flush">
-              <li class="list-group-item">Previous Searched</li>
+              <!-- <li class="list-group-item">Previous Searched</li> -->
             </ul>
           </section>
         </aside>
         <div class="forecast col-12 col-sm-12 col-md-8 col-lg-9">
           <main>
-            <h3>City + Date + Icon</h3>
-            <p>Temp</p>
-            <p>Wind Speed</p>
-            <p>Humidity</p>
-            <p>UV Index</p>
+            <h3 id="cityDate">City + Date</h3>
+            <img id="icon" />
+            <p id="temp">Temp</p>
+            <p id="windSpeed">Wind Speed</p>
+            <p id="humidity">Humidity</p>
+            <p id="uvIndex">UV Index</p>
           </main>
           <section>
             <h3 id="sectionHeader">5-Day Forecast</h3>
@@ -62,43 +63,7 @@
                     <li class="list-group-item">Wind: 9.66 MPH</li>
                     <li class="list-group-item">Humidity: 88%</li>
                   </ul>
-                </div>
-                <div class="card row" style="width: 18rem">
-                  <ul class="list-group list-group-flush col">
-                    <li class="list-group-item">07/26/2021</li>
-                    <li class="list-group-item">Icon</li>
-                    <li class="list-group-item">Temp: 73.72 F</li>
-                    <li class="list-group-item">Wind: 9.66 MPH</li>
-                    <li class="list-group-item">Humidity: 88%</li>
-                  </ul>
-                </div>
-                <div class="card row" style="width: 18rem">
-                  <ul class="list-group list-group-flush col">
-                    <li class="list-group-item">07/26/2021</li>
-                    <li class="list-group-item">Icon</li>
-                    <li class="list-group-item">Temp: 73.72 F</li>
-                    <li class="list-group-item">Wind: 9.66 MPH</li>
-                    <li class="list-group-item">Humidity: 88%</li>
-                  </ul>
-                </div>
-                <div class="card row" style="width: 18rem">
-                  <ul class="list-group list-group-flush col">
-                    <li class="list-group-item">07/26/2021</li>
-                    <li class="list-group-item">Icon</li>
-                    <li class="list-group-item">Temp: 73.72 F</li>
-                    <li class="list-group-item">Wind: 9.66 MPH</li>
-                    <li class="list-group-item">Humidity: 88%</li>
-                  </ul>
-                </div>
-                <div class="card row" style="width: 18rem">
-                  <ul class="list-group list-group-flush col">
-                    <li class="list-group-item">07/26/2021</li>
-                    <li class="list-group-item">Icon</li>
-                    <li class="list-group-item">Temp: 73.72 F</li>
-                    <li class="list-group-item">Wind: 9.66 MPH</li>
-                    <li class="list-group-item">Humidity: 88%</li>
-                  </ul>
-                </div>
+               
               </div>
             </div>
           </section>
